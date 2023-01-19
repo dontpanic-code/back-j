@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.15.0" />
+    <PackageReference Include="MimeKit" Version="2.15.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Reenbit.HireMe.DataAccess.Abstraction\Reenbit.HireMe.DataAccess.Abstraction.csproj" />
+    <ProjectReference Include="..\Reenbit.HireMe.Domain\Reenbit.HireMe.Domain.csproj" />
+    <ProjectReference Include="..\Reenbit.HireMe.Services.Abstraction\Reenbit.HireMe.Services.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>
